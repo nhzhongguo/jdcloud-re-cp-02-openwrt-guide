@@ -1,0 +1,48 @@
+# Personal secrets
+.env
+.env.*
+*password*
+*passwd*
+*secret*
+*token*
+*subscription*
+*node*
+*.key
+*.pem
+*.pub
+id_*
+
+# Firmware and backups
+firmware/*
+!firmware/README.md
+*.bin
+*.img
+*.trx
+*.itb
+*.backup
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Local screenshots and source tutorial files
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+
+# Logs and local outputs
+*.log
+router-net-diagnose-result.txt
+work/
+outputs/
+tmp/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
